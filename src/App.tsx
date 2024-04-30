@@ -1,13 +1,15 @@
-import Alerts from "./components/Alerts";
+
+
+import Button from "./components/Button";
+
+
 
 function App() {
   return (
     <div>
-      <Alerts>
-        <span>
-          Hello World
-        </span>
-      </Alerts>
+      <Button onClick={() =>console.log("Clicked")}>
+        My button
+      </Button>
     </div>
   );
 }
